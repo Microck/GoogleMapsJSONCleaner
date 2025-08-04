@@ -46,7 +46,7 @@ Before running, you can adjust settings at the top of each script:
 - **Email Scraping (`excel_email_scraper.py`)**:
     - Not 100% reliable; success depends on website structure and anti-bot measures.
     - Bypasses SSL errors (`verify=False`), which is less secure but often necessary for sites with certificate issues.
-    - Be respectful of website terms and `robots.txt`.
+    - Be respectful of website terms and `robots.txt`
 - **Output**:
     - `cleaner_appender.py` outputs to `XLXS_Consolidated/Consolidated_Business_Data.xlsx`.
     - `excel_email_scraper.py` modifies the Excel file you provide as input.
